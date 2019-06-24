@@ -1,0 +1,164 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100%;
+  /* background-image: url("balloon-icon.jpg"); */
+}
+.main-content {
+  position: relative;
+  display: flex;
+  height: auto;
+  width: 100%;
+  height: 5.1%;
+}
+.menu-list {
+  width: 100%;
+  text-align: right;
+}
+.menu-list a {
+  color: lightskyblue;
+  padding: 0.5% 1.5% 0 0;
+
+}
+a :hover {
+  background-color: blue;
+}
+.logo {
+  display: flex;
+  position: relative;
+  padding: 0 3% 1px 0;
+  border-right: 1px solid blue;
+  background: white;
+  flex-direction: column;
+}
+.main-title {
+  margin: 0 0 0 0;
+  padding :0 0 0 50%;
+  color: blue;
+  font-weight: bold;
+}
+.sub-title {
+  margin: 0 0 0 0;
+  padding :0 0 0 55%;
+  text-align: right;
+  color: blue
+}
+section {
+  display: flex;
+}
+.grad {
+  background-image: linear-gradient(to right, #1f55af, #478cd9);
+  width: 100%;
+  height: 35%;
+}
+.leftside { width: 55%;
+  height: 30%;
+  color: white;
+   text-align: center;
+   margin-top: 3%;
+   padding: 4%;
+}
+
+.leftside h1{ text-align: center;
+    color: white;
+    font-size: 300%;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0 0 0 10%;
+}
+.leftside p {
+  font-size: 80%;
+  padding: 0 0 0 24%;
+  color: white;
+}
+.rightside {
+   width: 45%;
+   height: auto;
+   overflow: hidden;
+   margin-top: 1.8%;
+}
+.rightside img {
+  width: 60%;
+  height: 50%;
+  background-repeat: no-repeat;
+  background-position: right-top;
+  margin-left: 30%;
+  height: 100%;
+}
+.header {
+  font-size: 180%;
+  text-align: center;
+  padding: 1% 0 0 0;
+  align-items: center;
+}
+.header1 {
+  font-size: 16px;
+  padding: 0 0.8% 0 0.8%;
+  text-align: justify;
+  text-align-last: center;
+}
+.back-color {
+  background-color: aliceblue;
+  justify-content: space-around;
+}
+/* .dfdf {
+  height: 30px;
+  width: 20%;
+  padding: 15px;
+} */
+.row {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  padding: 24px 0 24px 0;
+  height: 200%;
+  margin: 0 4% 0 4%;
+  align-content: space-between;
+  text-align: center;
+}
+.fa {
+  font-size: 35px;
+  color: gray;
+  padding: 0 0 3% 0;
+}
+ .footer {
+  background-color:#1f55af;
+   margin: 2% 0 0 0;
+  width: 100%;
+  height: 25%; */
+}
+.left {
+  width: 50%;
+}
+.left img {
+  padding: 2% 0 0 4%;
+  width: 80%;
+  height: 80%;
+}
+.right {
+  width: 50%;
+}
+.right p {
+  color: white;
+  padding: 2% 0 0 0;
+  width: 80%;
+  height: 80%;
+}
+@media only screen and (max-width: 700px) {
+  /* For mobile phones: */
+  .row
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+
